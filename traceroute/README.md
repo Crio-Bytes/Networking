@@ -33,13 +33,13 @@ Let's send some packets and see what happens.
 > - The TTL (Time-To-Live) value indicates how many hops the packet can perform before being dropped (deleted).
 
 <details>
-    <summary>Done with the task? Expand this to see the expected output</summary>
+<summary>Done with the task? Expand this to see the expected output</summary>
 
-    Command to be run `ping www.crio.do`
-    
-    ![ping output](./images/ping.png)
-    
-    You would have noticed that there is a TTL value reported back to you. This indicates that the packet sent made many hops in order to reach the destination. Usually, the max TTL is 255 [TTL - Wikipedia][2]
+Command to be run `ping www.crio.do`
+
+![ping output](./images/ping.png)
+
+You would have noticed that there is a TTL value reported back to you. This indicates that the packet sent made many hops in order to reach the destination. Usually, the max TTL is 255 [TTL - Wikipedia][2].
 </details>
 
 # Activity 2
@@ -55,10 +55,12 @@ We have seen that the packet takes quite a number of hops to reach the destinati
 > - In the event that traceroute outputs `***` as the output for a particular hop, it means that the router did not send back a TTL expired message. [ServerFault Answer][1]
 
 <details>
-    <summary>Done with the task? Expand this to see the expected output</summary>
+<summary>Done with the task? Expand this to see the expected output</summary>
 
-    Command to be run : `traceroute -m 100 www.crio.do`
-    ![traceroute](./images/traceroute.png)
+Command to be run : `traceroute -m 100 www.crio.do`
+
+Output:
+![traceroute](./images/traceroute.png)
 </details>
 
 # Activity 3
@@ -80,8 +82,9 @@ We need to install a library that helps us work with packets - `scapy`.
 > - You have to use `sudo` for the `pip` install because the code requires root to run.
 
 <details>
-    <summary>Need help?</summary>
-    `scapy` can be installed using pip.
+<summary>Need help?</summary>
+
+`scapy` can be installed using pip. Remember to use `sudo`.
 </details>
 
 ## Activity 3.2
@@ -95,21 +98,21 @@ We need to install a library that helps us work with packets - `scapy`.
 Try do this on on your own before looking at the sample code.
 
 <details>
-    <summary>Need help?</summary>
+<summary>Need help?</summary>
 
-    Here is some logic you can follow:
-    
-    ```
-    Import scapy
-    Create an IP layer
-    Set its destination and TTL value
-    Create ICMP layer
-    Create the packet
-    Send the packet and wait for reply
-    Output the reply
-    ```
-    
-    Refer to [Simple send and receive code](./src/simple_send_receive.py) to see how a simple packet can be sent.
+Here is some logic you can follow:
+
+```
+Import scapy
+Create an IP layer
+Set its destination and TTL value
+Create ICMP layer
+Create the packet
+Send the packet and wait for reply
+Output the reply
+```
+
+Refer to [Simple send and receive code](./src/simple_send_receive.py) to see how a simple packet can be sent.
 </details>
 
 > **Task:**
@@ -128,25 +131,27 @@ If all went well, you should see something like this:
 
 > **Task:**
 >
-> Can you add a while loop to the code to do this repetitively for increasing TTL values?
+> Can you add a loop to the code to do this repetitively for increasing TTL values?
 >
 > Remember to check the reply packet Type before incrementing the value. The ICMP return value when the packet reaches the destination is `0`. Put simply, keep sending packets and listening in to responses until a reply packet shows up with a Type `0`.
 
 <details>
-    <summary>Need help?</summary>
-    Here's some logic:
-    ```
-    Import scapy
-    in a while loop:
-        Create an IP layer
-        Set its destination and TTL value
-        Create ICMP layer
-        Create the packet
-        Send the packet and wait for reply
-        Output the reply
-        Check the reply to ensure it has not reached the destination. If it has, then quit, otherwise, increment TTL and loop.
-    ```
-	Refer to [Completed Traceroute code](./src/traceroute.py) for the completed program code.
+<summary>Need help?</summary>
+Here's some logic:
+
+```
+Import scapy
+in a loop:
+    Create an IP layer
+    Set its destination and TTL value
+    Create ICMP layer
+    Create the packet
+    Send the packet and wait for reply
+    Output the reply
+    Check the reply to ensure it has not reached the destination. If it has, then quit, otherwise, increment TTL and loop.
+```
+
+Refer to [Completed Traceroute code](./src/traceroute.py) for the completed program code.
 </details>
 
 > **Task:** 
@@ -166,8 +171,9 @@ Wait...what's this? No output?
 If you remember a note point made earlier in this MicroByte, you might know the reason why this is happening.
 
 <details>
-    <summary>Need a hint?</summary>
-    The reason is that the `sr1` function is infinitely waiting until the reply comes. What if there is no reply? (Remember the `***` from earlier?)
+<summary>Need a hint?</summary>
+
+The reason is that the `sr1` function is infinitely waiting until the reply comes. What if there is no reply? (Remember the `***` from earlier?)
 </details>
 
 ## Activity 3.4
@@ -175,8 +181,9 @@ If you remember a note point made earlier in this MicroByte, you might know the 
 Can you fix the issue discovered in Activity 3.3 above? 
 
 <details>
-    <summary>Need a hint?</summary>
-    This issue can be solved by adding a timeout to the traceroute code. In the event of a timeout, continue executing after incrementing the TTL.
+<summary>Need a hint?</summary>
+
+This issue can be solved by adding a timeout to the traceroute code. In the event of a timeout, continue executing after incrementing the TTL.
 </details>
 
 If you were able to solve the issue, you should see output similar to this:
