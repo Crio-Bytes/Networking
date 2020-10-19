@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -21,6 +21,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://biosreboot.wixsite.com/biosreboot"><img src="https://avatars2.githubusercontent.com/u/30438425?v=4" width="100px;" alt=""/><br /><sub><b>DarkAEther</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Networking/commits?author=DarkAEther" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Networking/commits?author=DarkAEther" title="Documentation">📖</a> <a href="#ideas-DarkAEther" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-DarkAEther" title="Content">🖋</a></td>
+    <td align="center"><a href="https://crio.do/"><img src="https://avatars0.githubusercontent.com/u/51743602?v=4" width="100px;" alt=""/><br /><sub><b>Crio.Do</b></sub></a><br /><a href="#eventOrganizing-CrioDo" title="Event Organizing">📋</a></td>
   </tr>
 </table>
 
