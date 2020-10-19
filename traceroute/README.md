@@ -197,6 +197,10 @@ Refer to the completed program for the timeout version [Traceroute with timeout]
 You should now have understood the logic behind the mighty `traceroute` and have a glimpse of the underlying process of routing that supports the internet that has become such an essential aspect of our lives.
 
 # References
+1. Traceroute outputs `***` (https://serverfault.com/a/334039)
+2. TTL - Wikipedia (https://en.wikipedia.org/wiki/Time_to_live)
+3. Scapy Docs (https://scapy.readthedocs.io/en/latest/index.html)
+
 [1]: <https://serverfault.com/a/334039> "Traceroute outputting `***`"
 
 [2]: https://en.wikipedia.org/wiki/Time_to_live "TTL - Wikipedia"
