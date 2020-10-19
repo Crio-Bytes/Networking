@@ -151,7 +151,7 @@ in a loop:
     Check the reply to ensure it has not reached the destination. If it has, then quit, otherwise, increment TTL and loop.
 ```
 
-Refer to [Completed Traceroute code](./src/traceroute.py) for the completed program code.
+Refer to the [traceroute code](./src/traceroute.py) for the completed program code.
 </details>
 
 > **Task:** 
@@ -166,7 +166,7 @@ If all went well, you should see something similar to this:
 
 ![traceroute_output_fail](./images/traceroute_output_fail.png)
 
-Wait...what's this? No output?
+Wait...what's this? No output? (Note: You may actually see some output and the program may even complete, however, this depends on the route your packet takes through the internet).
 
 If you remember a note point made earlier in this MicroByte, you might know the reason why this is happening.
 
