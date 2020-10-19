@@ -1,6 +1,6 @@
 # Introduction
 
-The essence of computer networking is to transport packets from one machine (source) to another (destination). In the current modern age, with high speed networking and the internet growing to a vast global network of various devices, we tend to take things such as how a simple packet of data containing your request to fetch the content at, say,  `www.crio.do` moves from your computing device to the server where GitHub runs.
+The essence of computer networking is to transport packets from one machine (source) to another (destination). In the current modern age, with high speed networking and the internet growing to a vast global network of various devices, we tend to take things such as how a simple packet of data containing your request to fetch the content at, say, `www.crio.do`, moves from your computing device to the server where Crio's website resides.
 
 This MicroByte explores the basics of packet routing and demonstrates the concept behind `traceroute` - a popular utility used to find some of the paths taken by a packet to reach a destination.
 
@@ -190,6 +190,7 @@ If you were able to solve the issue, you should see output similar to this:
 
 ![traceroute_output_success](./images/traceroute_output_success.png)
 
+Refer to the completed program for the timeout version [Traceroute with timeout](./src/traceroute_with_timeouts.py).
 
 # Conclusion
 
