@@ -101,8 +101,8 @@ Thus, the address 193.32.216.10 in binary notation is
 
 <br/>
 
-To check your understanding of IPV4 and its representation, take [this](Quiz/Quiz1.txt). <br/>
-The answers to this quiz are [here](Solutions/Solution1.txt). <br/>
+To check your understanding of IPV4 and its representation, take [this quiz](Quiz/Quiz1.txt). <br/>
+The answers to this quiz is available [here](Solutions/Solution1.txt). <br/>
 Note down your score. We'll use it to evaulate your performance later ;) <br/>
 <br/>
 
@@ -120,7 +120,7 @@ Solution : The default mask is 255.255.0.0, which means that the only the first 
 Therefore, the network address is 136.26.0.0.
 <br/>
 
-Take [this](Quiz/Quiz2.txt) to strengthen your concepts.<br/>
+Take [this quiz](Quiz/Quiz2.txt) to strengthen your concepts.<br/>
 The answers to this quiz are [here](Solutions/Solution2.txt). <br/>
 <br/><br/>
 
@@ -238,7 +238,7 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 ### ACTIVITY 3.1 : 
 Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [this quiz](Quiz/Quiz3.txt)!
 
-The answers for the quiz is available [here](Solutions/Solutions3.txt).
+The answers for the quiz is available [here](Solutions/Solution3.txt).
 
 <br/><br/><hr>
 
