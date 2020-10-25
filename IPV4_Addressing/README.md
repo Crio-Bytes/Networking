@@ -59,7 +59,7 @@ Look at the the functionalities offered by the different layers in the TCP/IP pr
 - Every Quiz has a folder corresponding to its name. Solutions to a particular quiz should be added in the respective Quiz folder. <br/>
 - The solution file should be named as 'Solution#'.txt <br/>
 - Kindly show the logic/steps for your solutions.
-For example, the solution for quiz 3 should be added in **Solutions/Quiz3/Solution3.txt**. 
+For example, the solution for quiz 3 should be added in **Solutions/Quiz3/Solutions3.txt**. 
 
 # ACTIVITIES:
 
