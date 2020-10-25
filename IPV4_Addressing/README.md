@@ -24,17 +24,17 @@ End systems, routers,switches and other pieces of the Internet run protocols tha
 
 <br/>
 
-Given this basic introduction to Computer Networks, how do you think these numerous protocols and devices in the network are communicate and operate with each other? How it the entire structure organised?
-<br/><br/>
-To provide structure to the design of network protocols, and the network hardware and software that implement the protocols are organised in **layers**. <br/>
-Each protocol belongs to one of the layers. <br/>
-Each layer provides its service by: <br/>
-
->  Performing certain actions within that layer and <br/>
->  Using the services of the layer directly below it.
+Given this basic introduction to Computer Networks, how do you think these numerous protocols and devices in the network are communicate and operate with each other? How is the entire structure organised?
 <br/>
-When taken together, the protocols of the various layers are called the protocol stack.<br/>
- The Internet protocol stack consists of five layers: <br/>
+* To provide structure to the design of network protocols, and the network hardware and software that implement the protocols are organised in **layers**. <br/>
+* Each protocol belongs to one of the layers. <br/>
+* Each layer provides its service by: <br/>
+  - Performing certain actions within that layer and <br/>
+  - Using the services of the layer directly below it.
+<br/>
+When taken together, the protocols of the various layers are called the **protocol stack**.<br/>
+
+The Internet protocol stack consists of five layers: <br/>
  
   **physical, link, network, transport, and application layers** as shown in the figure. <br/><br/>
 
@@ -57,8 +57,9 @@ Look at the the functionalities offered by the different layers in the TCP/IP pr
 # ACTIVITIES:
 
 Now that we have some knowledge about computer networks, how do you think the different devices in the network are named and how do they communicate ?<br/>
-Communication between hosts can happen only if they can identify each other on the network.<br/>
-For this purpose,  a logical address is given to all hosts connected to the Internet and this logical address is called **Internet Protocol Address**.<br/>
+- Communication between hosts can happen only if they can identify each other on the network.<br/>
+- For this purpose,  a logical address is given to all hosts connected to the Internet and this logical address is called **Internet Protocol Address**.<br/>
+
 We have some addressing conventions for this.Some of them are :<br/>
 * IPV4:
     - Classful IPV4
@@ -71,7 +72,10 @@ In this micro-byte we'll learn about the **IPV4** addressing formats.
 
 ## ACTIVITY 1:
 In this activity,we'll look at the introduction to IPV4 and its representation<br/>
-Internet Protocol is one of the major protocols in the TCP/IP protocols suite. This protocol works at the network layer of the TCP/IP model. Thus this protocol has the responsibility of identifying hosts based upon their logical addresses and to route data among them over the underlying network.<br/><br/>
+
+- Internet Protocol is one of the major protocols in the TCP/IP protocols suite. <br/>
+- This protocol works at the network layer of the TCP/IP model. <br/>
+- This protocol has the responsibility of identifying hosts based upon their logical addresses and to route data among them over the underlying network.<br/><br/>
 
 IP provides a mechanism to uniquely identify hosts by an IP addressing scheme.IPV4 ,that is **Internet Protocol Version 4** uses **32-bit(4 byte)** logical address as shown in this figure: <br/>
 
@@ -102,18 +106,17 @@ Thus, the address 193.32.216.10 in binary notation is
 <br/>
 
 To check your understanding of IPV4 and its representation, take [this quiz](Quiz/Quiz1.txt). <br/>
-The answers to this quiz is available [here](Solutions/Solution1.txt). <br/>
-Note down your score. We'll use it to evaulate your performance later ;) <br/>
+ <br/>
 <br/>
 
 ## ACTIVITY 2:
 ### NETWORK ADDRESS AND MASK
 
-**Network address** – It identifies a network on the internet.  Using this, we can find the range of addresses in the network and the total possible number of hosts in the network.
+* **Network address** – It identifies a network on the internet.  Using this, we can find the range of addresses in the network and the total possible number of hosts in the network.
 <br/>
 
-**Mask** – It is a 32-bit binary number that gives the network address in the address block when bitwise AND operation is  applied on the mask and any IP address of the block.
-<br/>
+* **Mask** – It is a 32-bit binary number that gives the network address in the address block when bitwise AND operation is  applied on the mask and any IP address of the block.
+<br/><br/>
 Example : Given IP address 136.26.12.95 and default mask is 255.255.0.0 , find the network address.
 
 Solution : The default mask is 255.255.0.0, which means that the only the first 2 bytes are preserved and the other 2 bytes are set to 0.<br/>
@@ -121,7 +124,7 @@ Therefore, the network address is 136.26.0.0.
 <br/>
 
 Take [this quiz](Quiz/Quiz2.txt) to strengthen your concepts.<br/>
-The answers to this quiz are [here](Solutions/Solution2.txt). <br/>
+
 <br/><br/>
 
 ## ACTIVITY 3:
@@ -156,11 +159,12 @@ While finding the total number of host IP addresses, 2 IP addresses are not coun
 An octet is a set of 8 bits
 <br/><br/>
 #### CLASS A:  
-The network ID is **8 bits** long:</br>
-The Most Significant BIT(MSB) in the first octet is always set to **0**.  The remaining 7 bits in first octet are used to determine network ID. <br/>
+ The network ID is **8 bits** long:</br>
+- The Most Significant BIT(MSB) in the first octet is always set to **0**.  
+- The remaining 7 bits in first octet are used to determine network ID. <br/>
 
 The host ID is **24 bits** long: </br>
-The 24 bits of host ID are used to determine the host in any network. <br/>
+- The 24 bits of host ID are used to determine the host in any network. <br/>
 <br/>
 
 The default subnet mask for class A is 255.x.x.x. <br/>
@@ -178,10 +182,13 @@ This class is used when the network has a large number of hosts. (Why? Think abo
 #### CLASS B:
 
 The network ID is **16 bits** long:<br/>
-The first 2 bits of the first octet in class B are always set to 10. The remaining 14 bits are used to determine network ID. 
+- The first 2 bits of the first octet in class B are always set to 10. 
+- The remaining 14 bits are used to determine network ID. 
 <br/>
-The host ID is 16 bits long:<br/>
-The 16 bits of host ID is used to determine the number of hosts.The default sub-net mask for class B is 255.255.x.x. <br/>
+
+The host ID is **16 bits** long:<br/>
+- The 16 bits of host ID is used to determine the number of hosts. <br/>
+The default sub-net mask for class B is 255.255.x.x. <br/>
 Thus,<br/>
 Class B has a total of:<br/>
 2^14 = 16384 network address<br/>
@@ -194,11 +201,13 @@ This class is used for networks that ranges from medium-sized to large-sized net
 #### CLASS C:
 
 The network ID is 24 bits long:<br/>
-First 3 bits of the first octet are always set to 110. The remaining 21 bits are used to determine network ID.
+- First 3 bits of the first octet are always set to 110. 
+- The remaining 21 bits are used to determine network ID.
 
 The host ID is 8 bits long:<br/>
- The 8 bits of host ID is used to determine the host in any network. The default sub-net mask for class C is
-  255.255.255.x. 
+ - The 8 bits of host ID is used to determine the host in any network. <br/>
+ 
+The default sub-net mask for class C is 255.255.255.x. 
 <br/><br/>
 Class C has a total of:<br/>
 2^21 = 2097152 network address<br/>
@@ -210,8 +219,8 @@ Class C has a total of:<br/>
 IP address belonging to class C are assigned to small-sized networks.<br/><br/>
 
 #### CLASS D:
-The higher order bits of the first octet are always set to 1110. <br/>
-IP address belonging to class D are reserved for multi-casting.  <br/>
+- The higher order bits of the first octet are always set to 1110. <br/>
+- IP address belonging to class D are reserved for multi-casting.  <br/>
 
 **IP addresses belonging to class D ranges from 224.0.0.0 – 239.255.255.255**.
 <br/>
@@ -222,8 +231,8 @@ IP address belonging to class D are reserved for multi-casting.  <br/>
 <br/><br/>
 
 #### CLASS E:
-The higher order bits of first octet  are always set to 1111.<br/>
-IP addresses belonging to class E are reserved for experimental and research purposes. <br/>
+- The higher order bits of first octet  are always set to 1111.<br/>
+- IP addresses belonging to class E are reserved for experimental and research purposes. <br/>
 **IP addresses of class E ranges from 240.0.0.0 – 255.255.255.254**.  
 <br/>
 <br/>
@@ -238,7 +247,7 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 ### ACTIVITY 3.1 : 
 Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [this quiz](Quiz/Quiz3.txt)!
 
-The answers for the quiz is available [here](Solutions/Solution3.txt).
+
 
 <br/><br/><hr>
 
@@ -249,9 +258,12 @@ Can you think about it?
 Hint: It has something in relation to the number of bits reserved for network ids in the different classes.
 <br/><br/><br/>
 
-Well, the requirement that the subnet portion of an IP address be exactly 1, 2, or 3 bytes long turned out to be problematic for supporting the rapidly growing number of organizations with small and medium-sized subnets. A class C (/24) subnet could accommodate only up to 28 – 2 = 254 hosts—too small for many organizations. However, a class B (/16) subnet, which supports up to 65,634 hosts, was too large. 
-Under classful addressing, an organization with, say, 2,000 hosts was typically allocated a class B (/16) subnet address- —leaving more than 63,000 addresses that could not be used by other organizations. 
-This led to a rapid depletion of the class B address space and poor utilization of the assigned address space. 
+Well,<br/>
+- The requirement that the subnet portion of an IP address be exactly 1, 2, or 3 bytes long turned out to be problematic for supporting the rapidly growing number of organizations with small and medium-sized subnets. <br/>
+- A class C (/24) subnet could accommodate only up to 28 – 2 = 254 hosts—too small for many organizations.  <br/>
+- However, a class B (/16) subnet, which supports up to 65,634 hosts, was too large.  <br/>
+- Under classful addressing, an organization with, say, 2,000 hosts was typically allocated a class B (/16) subnet address- —leaving more than 63,000 addresses that could not be used by other organizations. <br/>
+T- his led to a rapid depletion of the class B address space and poor utilization of the assigned address space.  <br/>
 
 <br/> 
 How could we improve this? For this purpose, from classful adressing, there was a transition to CIDR i.e Classless Interdomain Routing Protocol
@@ -279,9 +291,9 @@ Representation for CIDR: <br/>
 a.b.c.d /x <br/>
 x represents the network/subnet mask. <br/><br/>
 
-The x most significant bits of an address of the form a.b.c.d/x constitute the network portion of the IP address, and is often referred to as the prefix (or network prefix) of the address. <br/>
+- The x most significant bits of an address of the form a.b.c.d/x constitute the network portion of the IP address, and is often referred to as the prefix (or network prefix) of the address. <br/>
 
-The remaining 32-x bits of an address can be thought of as distinguishing among the devices within the organization, all of which have the same network prefix. <br/><br/>
+- The remaining 32-x bits of an address can be thought of as distinguishing among the devices within the organization, all of which have the same network prefix. <br/><br/>
 
 For example ,consider the CIDRized address a.b.c.d/21 <br/>
 
@@ -290,7 +302,7 @@ The remaining 11 (32-21) bits then identify the specific hosts in the organizati
 <br/><br/>
 
 Take [this quiz](Quiz/Quiz4.txt)  to strengthen your knowledge about this section ! <br/>
-The solutions are available [here](Solutions/Solution4.txt). <br/>
+
 <br/>
 
 <hr>
@@ -301,7 +313,7 @@ Refer to [this](Tricks.txt) file for some tricks to identify Network id, Broadca
 <br/>
 
 Take [this quiz](Quiz/Quiz5.txt) to test your understanding now ! <br/>
-The solutions for this is available [here](Solutions/Solution5.txt)
+
 
 
 <hr>
