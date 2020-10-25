@@ -189,6 +189,7 @@ The network ID is **16 bits** long:<br/>
 
 The host ID is **16 bits** long:<br/>
 - The 16 bits of host ID is used to determine the number of hosts. <br/>
+
 The default sub-net mask for class B is 255.255.x.x. <br/>
 Thus,<br/>
 Class B has a total of:<br/>
@@ -290,7 +291,7 @@ HINT: Calculate the number of hosts that can be supported in the network.<br/>
 
 
 Representation for CIDR: <br/>
-a.b.c.d /x <br/>
+**a.b.c.d /x** <br/>
 x represents the network/subnet mask. <br/><br/>
 
 - The x most significant bits of an address of the form a.b.c.d/x constitute the network portion of the IP address, and is often referred to as the prefix (or network prefix) of the address. <br/>
