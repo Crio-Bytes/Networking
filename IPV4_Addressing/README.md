@@ -54,6 +54,13 @@ Look at the the functionalities offered by the different layers in the TCP/IP pr
 
 </br></br>
 
+# Note:
+- The solutions to the quizzes in the Activities can be added to the Quiz folder. <br/>
+- Every Quiz has a folder corresponding to its name. Solutions to a particular quiz should be added in the respective Quiz folder. <br/>
+- The solution file should be named as 'Solution#'.txt <br/>
+- Kindly show the logic/steps for your solutions.
+For example, the solution for quiz 3 should be added in **Quiz/Quiz3**. The file should be named **Solution3.txt** .
+
 # ACTIVITIES:
 
 Now that we have some knowledge about computer networks, how do you think the different devices in the network are named and how do they communicate ?<br/>
@@ -105,7 +112,7 @@ Thus, the address 193.32.216.10 in binary notation is
 
 <br/>
 
-To check your understanding of IPV4 and its representation, take [this quiz](Quiz/Quiz1.txt). <br/>
+To check your understanding of IPV4 and its representation, take [Quiz1](Quiz/Quiz1/Quiz1.txt). <br/>
  <br/>
 <br/>
 
@@ -124,7 +131,7 @@ Solution : The default mask is 255.255.0.0, which means that the only the first 
 Therefore, the network address is 136.26.0.0.
 <br/>
 
-Take [this quiz](Quiz/Quiz2.txt) to strengthen your concepts.<br/>
+Take [Quiz2](Quiz/Quiz2/Quiz2.txt) to strengthen your concepts.<br/>
 
 <br/><br/>
 
@@ -247,7 +254,7 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 <br/><br/> <hr>
 
 ### ACTIVITY 3.1 : 
-Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [this quiz](Quiz/Quiz3.txt)!
+Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [Quiz3](Quiz/Quiz3/Quiz3.txt)!
 
 
 
@@ -303,7 +310,7 @@ The first 21 bits of the CIDRized address a.b.c.d/21 specify the organization’
 The remaining 11 (32-21) bits then identify the specific hosts in the organization.
 <br/><br/>
 
-Take [this quiz](Quiz/Quiz4.txt)  to strengthen your knowledge about this section ! <br/>
+Take [Quiz4](Quiz/Quiz4/Quiz4.txt)  to strengthen your knowledge about this section ! <br/>
 
 <br/>
 
@@ -314,7 +321,7 @@ Take [this quiz](Quiz/Quiz4.txt)  to strengthen your knowledge about this sectio
 Refer to [this](Tricks.txt) file for some tricks to identify Network id, Broadcast id, First IP and Last IP
 <br/>
 
-Take [this quiz](Quiz/Quiz5.txt) to test your understanding now ! <br/>
+Take [Quiz5](Quiz/Quiz5/Quiz5.txt) to test your understanding now ! <br/>
 
 
 
@@ -341,5 +348,6 @@ https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing <br/>
 https://en.wikipedia.org/wiki/IPv4 <br/>
 
 
+
 ## SUMMARY:
-I hope that you are now comfortable in identifying network masks,host ids,etc.I believe that you now have some basic idea about IP addresses and their types.So,what are you waiting for, there is a lot to explore and learn in networking ! Happy learning ! :)
+I hope that you are now comfortable in identifying network masks,host ids,etc.I believe that you now have some basic idea about IP addresses and their types.Kudos to you for completing this Microbyte! So,what are you waiting for, there is a lot to explore and learn in networking ! Happy learning ! :)
