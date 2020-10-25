@@ -1,0 +1,13 @@
+(Each question has 1 point )
+
+Question 1: What does IPV4 stand for ?
+
+Question 2: In which format are IP addresses represented?
+
+Question 3: IP addresses consist of how many bits.What is the equivalent number of bytes ?
+
+Question 4:  Consider the IP address 193.45.23.2 . What is the binary representation of this address?
+
+Question 5: Consider this binary representation : 10100100 00110100 11011010 00101010. What is the decimal representation of this address?
+
+

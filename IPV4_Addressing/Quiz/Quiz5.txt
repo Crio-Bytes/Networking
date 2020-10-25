@@ -1,0 +1,6 @@
+The questions are worth 2 points each:
+
+For each of these questions, identify the network,broadcast id, first and last ip.
+Question 1: 192.168.1.65/28
+Question 2: 192.168.20.166/25
+Question 3: 192.168.20.86/30

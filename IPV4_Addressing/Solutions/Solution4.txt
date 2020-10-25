@@ -1,0 +1,12 @@
+Each question is worth 1 point:
+
+Question 1: Consider the network w.x.y.x/18. How many bits are reserved for network and host ?
+Answer : For network, 18 bits are reserved. For hosts, 32- 18 = 14 bits are reserved. 
+
+Question 2: How many hosts can be supported by the above network?
+Answer: As 14 bits are reserved for the hosts, the number of hosts supported = 2^14 -2 hosts.
+
+Question 3 :  Given the network 244.123.55.80/16 ,what is the number of bits for the network and hosts?
+Answer : Network : 16 bits, Hosts : 32-16 = 16 bits
+
+

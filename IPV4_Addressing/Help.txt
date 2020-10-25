@@ -1,0 +1,7 @@
+Well, The First-Host Id would be the network addresss + 1.
+
+Can you now identify the last host id?
+
+The Last-Host Id would be network address + number of hosts.
+
+
