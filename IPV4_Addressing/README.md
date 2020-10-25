@@ -1,5 +1,5 @@
 # INTRODUCTION
-In this micro-byte, we'll learn about IPV4 addressing formats
+In this micro-byte, we'll learn about IPV4 addressing formats.
 <br/> 
 <br/>
 
@@ -30,17 +30,18 @@ To provide structure to the design of network protocols, and the network hardwar
 Each protocol belongs to one of the layers. <br/>
 Each layer provides its service by: <br/>
 
->  performing certain actions within that layer and <br/>
-   using the services of the layer directly below it.
+>  Performing certain actions within that layer and <br/>
+>  Using the services of the layer directly below it.
 <br/>
 When taken together, the protocols of the various layers are called the protocol stack.<br/>
  The Internet protocol stack consists of five layers: <br/>
  
-  **physical, link, network, transport, and application layers** as shown in the figure. 
+  **physical, link, network, transport, and application layers** as shown in the figure. <br/><br/>
 
 ![Figure1](./Images/tcp.jpg)
 
 
+<br/><br/>
 **FURTHER EXPLORATION** <br/>
 Look at the the functionalities offered by the different layers in the TCP/IP protocol stack
 <br/><br/>
