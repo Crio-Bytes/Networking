@@ -211,7 +211,7 @@ This class is used for networks that ranges from medium-sized to large-sized net
 
 #### CLASS C:
 
-The network ID is **24 bits**** long:<br/>
+The network ID is **24 bits** long:<br/>
 - First 3 bits of the first octet are always set to 110. 
 - The remaining 21 bits are used to determine network ID.
 
@@ -340,7 +340,7 @@ So,never stop learning ! ;)
 <br/>
 
 ### FURTHER EXPLORATION:
-All this is just the tip of the iceberg. As the field of Computer Networks is very vast, there is quite a lot that can be learned. You could learn about .(Your starting point could be from the links mentioned for each point :) )
+All this is just the tip of the iceberg. As the field of Computer Networks is very vast, there is quite a lot that can be learned. You could learn about .(Your starting point could be from the links mentioned for each topic :) )
 1. IPV6 addressing <br/>
  - www.tutorialspoint.com/ipv6/ipv6_address_types.htm <br/>
 2. MAC addresses <br/>
