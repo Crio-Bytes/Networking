@@ -251,7 +251,6 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [this quiz](Quiz/Quiz3.txt)!
 
 
-
 <br/><br/><hr>
 
 ### ACTIVITY 3.2  :
@@ -259,7 +258,7 @@ It is not that encouraged to used Classful IPV4 addressing now. What do you thin
 Can you think about it?
 <br/><br/>
 Hint: It has something in relation to the number of bits reserved for network ids in the different classes.
-<br/><br/><br/>
+<br/><br/>
 
 Well,<br/>
 - The requirement that the subnet portion of an IP address be exactly 1, 2, or 3 bytes long turned out to be problematic for supporting the rapidly growing number of organizations with small and medium-sized subnets. <br/>
