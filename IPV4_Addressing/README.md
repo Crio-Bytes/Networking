@@ -300,8 +300,8 @@ The solutions are available [here](Solutions/Solution4.txt). <br/>
 Refer to [this](Tricks.txt) file for some tricks to identify Network id, Broadcast id, First IP and Last IP
 <br/>
 
-Take [this](Quiz/Quiz5.txt) to test your understanding now ! <br/>
-The solutions for this is available[here](Solutions/Solution5.txt)
+Take [this quiz](Quiz/Quiz5.txt) to test your understanding now ! <br/>
+The solutions for this is available [here](Solutions/Solution5.txt)
 
 
 <hr>
