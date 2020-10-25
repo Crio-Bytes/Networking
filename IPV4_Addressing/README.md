@@ -117,6 +117,7 @@ To check your understanding of IPV4 and its representation, take [this quiz](Qui
 
 * **Mask** – It is a 32-bit binary number that gives the network address in the address block when bitwise AND operation is  applied on the mask and any IP address of the block.
 <br/><br/>
+
 Example : Given IP address 136.26.12.95 and default mask is 255.255.0.0 , find the network address.
 
 Solution : The default mask is 255.255.0.0, which means that the only the first 2 bytes are preserved and the other 2 bytes are set to 0.<br/>
@@ -200,11 +201,11 @@ This class is used for networks that ranges from medium-sized to large-sized net
 
 #### CLASS C:
 
-The network ID is 24 bits long:<br/>
+The network ID is **24 bits**** long:<br/>
 - First 3 bits of the first octet are always set to 110. 
 - The remaining 21 bits are used to determine network ID.
 
-The host ID is 8 bits long:<br/>
+The host ID is **8 bits** long:<br/>
  - The 8 bits of host ID is used to determine the host in any network. <br/>
  
 The default sub-net mask for class C is 255.255.255.x. 
@@ -239,6 +240,7 @@ IP address belonging to class C are assigned to small-sized networks.<br/><br/>
 Dont get intimidated by all this information.It may look daunting but,trust me, its not.
 The trick here is to observe the pattern. <br/>
 Can you identify some patterns in the different IPv4 classes ? <br/>
+
 [Click here](Tricks2.txt) to find it out!
 
 
@@ -263,7 +265,7 @@ Well,<br/>
 - A class C (/24) subnet could accommodate only up to 28 – 2 = 254 hosts—too small for many organizations.  <br/>
 - However, a class B (/16) subnet, which supports up to 65,634 hosts, was too large.  <br/>
 - Under classful addressing, an organization with, say, 2,000 hosts was typically allocated a class B (/16) subnet address- —leaving more than 63,000 addresses that could not be used by other organizations. <br/>
-T- his led to a rapid depletion of the class B address space and poor utilization of the assigned address space.  <br/>
+- This led to a rapid depletion of the class B address space and poor utilization of the assigned address space.  <br/>
 
 <br/> 
 How could we improve this? For this purpose, from classful adressing, there was a transition to CIDR i.e Classless Interdomain Routing Protocol
