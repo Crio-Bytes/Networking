@@ -196,6 +196,7 @@ The network ID is **16 bits** long:<br/>
 
 The host ID is **16 bits** long:<br/>
 - The 16 bits of host ID is used to determine the number of hosts. <br/>
+
 The default sub-net mask for class B is 255.255.x.x. <br/>
 Thus,<br/>
 Class B has a total of:<br/>
@@ -257,7 +258,6 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [Quiz3](Quiz/Quiz3/Quiz3.txt)!
 
 
-
 <br/><br/><hr>
 
 ### ACTIVITY 3.2  :
@@ -265,7 +265,7 @@ It is not that encouraged to used Classful IPV4 addressing now. What do you thin
 Can you think about it?
 <br/><br/>
 Hint: It has something in relation to the number of bits reserved for network ids in the different classes.
-<br/><br/><br/>
+<br/><br/>
 
 Well,<br/>
 - The requirement that the subnet portion of an IP address be exactly 1, 2, or 3 bytes long turned out to be problematic for supporting the rapidly growing number of organizations with small and medium-sized subnets. <br/>
@@ -297,7 +297,7 @@ HINT: Calculate the number of hosts that can be supported in the network.<br/>
 
 
 Representation for CIDR: <br/>
-a.b.c.d /x <br/>
+**a.b.c.d /x** <br/>
 x represents the network/subnet mask. <br/><br/>
 
 - The x most significant bits of an address of the form a.b.c.d/x constitute the network portion of the IP address, and is often referred to as the prefix (or network prefix) of the address. <br/>
