@@ -55,11 +55,11 @@ Look at the the functionalities offered by the different layers in the TCP/IP pr
 </br></br>
 
 # Note:
-- The solutions to the quizzes in the Activities can be added to the Quiz folder. <br/>
+- The solutions to the quizzes in the Activities can be added to the **Solutions** folder. <br/>
 - Every Quiz has a folder corresponding to its name. Solutions to a particular quiz should be added in the respective Quiz folder. <br/>
 - The solution file should be named as 'Solution#'.txt <br/>
 - Kindly show the logic/steps for your solutions.
-For example, the solution for quiz 3 should be added in **Quiz/Quiz3**. The file should be named **Solution3.txt** .
+For example, the solution for quiz 3 should be added in **Solutions/Quiz3/Solution3.txt**. 
 
 # ACTIVITIES:
 
@@ -113,6 +113,7 @@ Thus, the address 193.32.216.10 in binary notation is
 <br/>
 
 To check your understanding of IPV4 and its representation, take [Quiz1](Quiz/Quiz1/Quiz1.txt). <br/>
+You can submit the solution [here](Solutions/Quiz1/Solution1.txt).
  <br/>
 <br/>
 
@@ -132,6 +133,7 @@ Therefore, the network address is 136.26.0.0.
 <br/>
 
 Take [Quiz2](Quiz/Quiz2/Quiz2.txt) to strengthen your concepts.<br/>
+You can submit the solution [here](Solutions/Quiz2/Solution2.txt).
 
 <br/><br/>
 
@@ -255,7 +257,8 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 <br/><br/> <hr>
 
 ### ACTIVITY 3.1 : 
-Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [Quiz3](Quiz/Quiz3/Quiz3.txt)!
+Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [Quiz3](Quiz/Quiz3/Quiz3.txt)!<br/>
+You can submit the solution [here](Solutions/Quiz3/Solution3.txt).
 
 
 <br/><br/><hr>
@@ -311,6 +314,7 @@ The remaining 11 (32-21) bits then identify the specific hosts in the organizati
 <br/><br/>
 
 Take [Quiz4](Quiz/Quiz4/Quiz4.txt)  to strengthen your knowledge about this section ! <br/>
+You can submit the solution [here](Solutions/Quiz4/Solution4.txt).
 
 <br/>
 
@@ -322,7 +326,7 @@ Refer to [this](Tricks.txt) file for some tricks to identify Network id, Broadca
 <br/>
 
 Take [Quiz5](Quiz/Quiz5/Quiz5.txt) to test your understanding now ! <br/>
-
+You can submit the solution [here](Solutions/Quiz5/Solution5.txt).
 
 
 <hr>
