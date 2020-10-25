@@ -1,0 +1,6 @@
+Each question is worth 2 point:
+Question 1: In the IPv4 addressing format, the number of networks allowed under Class C addresses is
+
+Question 2: If a class B network on the Internet has a subnet mask of 255.255.248.0, what is the maximum number of hosts per subnet?
+
+Question 3: The default subnet mask for a class B network can be  __ .

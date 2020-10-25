@@ -1,0 +1,7 @@
+Question 1 and 2 is worth 1 point, Question 3 is worth 2 points.
+
+Question 1: Given the IP address 144.56.34.78 and the subnet mask 255.255.255.0, what is network address?
+
+Question 2: Given the IP address 101.156.234.178 and the subnet mask 255.0.0.0, what is network address?
+
+Question 3: Given the IP address 101.156.234.178 and the subnet mask 255.255.128.0, what is network address?

@@ -1,0 +1,35 @@
+Here are some formulas for identifying network id, broadcast id, first and last host.
+
+Network ID: floor(Host Address/ Number of Hosts) *  Number of Hosts
+
+Broadcast ID: (Network ID + ( Number of Hosts-1))
+
+First Host: Network ID + 1
+
+Last Host: Broadcast ID - 1
+
+For example,consider
+192.168.30.14/29
+
+Subnet mask : 29
+Bits for hosts : 32-29 = 3
+Therefore, number of hosts = 2 power 3 = 8;
+Host address = 14
+
+Network id = floor(host address/number of hosts)* number of hosts
+           = floor(14/8)* 8
+           = floor(1.75) * 8
+           = 1*8
+           = 8          (192.168.30.8)
+
+Broadcast id = (Network id +( Number of hosts -1))
+             = 8+(8-1) 
+             = 8 +7 
+             = 15         (192.168.30.15)
+             
+
+First Host id = Network ID + 1
+              = 8 + 1 = 9      (192.168.30.9)
+
+Last Host ID = Broadcast id - 1
+             = 15 - 1 = 14       (192.168.30.14)
