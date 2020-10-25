@@ -340,11 +340,17 @@ So,never stop learning ! ;)
 <br/>
 
 ### FURTHER EXPLORATION:
-All this is just the tip of the iceberg. As the field of Computer Networks is very vast, there is quite a lot that can be learned. You could learn about 
+All this is just the tip of the iceberg. As the field of Computer Networks is very vast, there is quite a lot that can be learned. You could learn about .(Your starting point could be from the links mentioned for each point :) )
 1. IPV6 addressing <br/>
+ - www.tutorialspoint.com/ipv6/ipv6_address_types.htm <br/>
 2. MAC addresses <br/>
+  - https://en.wikipedia.org/wiki/MAC_address <br/>
 3. Dive deep into TCP/IP stack <br/>
+  - https://blog.smartbuildingsacademy.com/what-is-the-tcp-ip-stack
+  - https://www.guru99.com/tcp-ip-model.html <br/>
 4. Learn about OSI stack and difference with TCP/IP stack <br/>
+  - https://en.wikipedia.org/wiki/OSI_model
+  - https://techdifferences.com/difference-between-tcp-ip-and-osi-model.html
 and many many more !
 
 ## REFERENCES:
