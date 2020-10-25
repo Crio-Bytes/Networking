@@ -113,7 +113,7 @@ Thus, the address 193.32.216.10 in binary notation is
 <br/>
 
 To check your understanding of IPV4 and its representation, take [Quiz1](Quiz/Quiz1/Quiz1.txt). <br/>
-You can submit the solution [here](Solutions/Quiz1/Solution1.txt).
+You can submit the solution [here](Solutions/Quiz1/Solutions1.txt).
  <br/>
 <br/>
 
@@ -133,7 +133,7 @@ Therefore, the network address is 136.26.0.0.
 <br/>
 
 Take [Quiz2](Quiz/Quiz2/Quiz2.txt) to strengthen your concepts.<br/>
-You can submit the solution [here](Solutions/Quiz2/Solution2.txt).
+You can submit the solution [here](Solutions/Quiz2/Solutions2.txt).
 
 <br/><br/>
 
@@ -258,7 +258,7 @@ Can you identify some patterns in the different IPv4 classes ? <br/>
 
 ### ACTIVITY 3.1 : 
 Now that you know quite a lot about classful IPV4 addressing, let's see how you fare in [Quiz3](Quiz/Quiz3/Quiz3.txt)!<br/>
-You can submit the solution [here](Solutions/Quiz3/Solution3.txt).
+You can submit the solution [here](Solutions/Quiz3/Solutions3.txt).
 
 
 <br/><br/><hr>
@@ -314,7 +314,7 @@ The remaining 11 (32-21) bits then identify the specific hosts in the organizati
 <br/><br/>
 
 Take [Quiz4](Quiz/Quiz4/Quiz4.txt)  to strengthen your knowledge about this section ! <br/>
-You can submit the solution [here](Solutions/Quiz4/Solution4.txt).
+You can submit the solution [here](Solutions/Quiz4/Solutions4.txt).
 
 <br/>
 
@@ -326,7 +326,7 @@ Refer to [this](Tricks.txt) file for some tricks to identify Network id, Broadca
 <br/>
 
 Take [Quiz5](Quiz/Quiz5/Quiz5.txt) to test your understanding now ! <br/>
-You can submit the solution [here](Solutions/Quiz5/Solution5.txt).
+You can submit the solution [here](Solutions/Quiz5/Solutions5.txt).
 
 
 <hr>
