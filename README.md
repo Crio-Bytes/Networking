@@ -27,7 +27,10 @@ A **computer network** is a group of [computers](https://en.wikipedia.org/wiki/C
 
 
   ```
-  IPv4 is the most widely used version of the Internet Protocol. It defines IP addresses in a 32-bit format, which looks like 123.123. 123.123. Each three-digit section can include a number from 0 to 255, which means the total number of IPv4 addresses available is 4,294,967,296 (256 x 256 x 256 x 256 or 2^32).
+  IPv4 is the most widely used version of the Internet Protocol. It defines IP 
+  addresses in a 32-bit format, which looks like 123.123. 123.123. Each three-digit 
+  section can include a number from 0 to 255, which means the total number of IPv4 
+  addresses available is 4,294,967,296 (256 x 256 x 256 x 256 or 2^32).
 
   Let's dive a bit deeper in knowing the IPV4 addressing formats.
   ```
