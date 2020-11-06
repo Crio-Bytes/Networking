@@ -11,6 +11,35 @@ Many types of networks exist, but they fall under two primary categories: [LANs]
 ### Background
 
 A **computer network** is a group of [computers](https://en.wikipedia.org/wiki/Computer) that use a set of common [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol) over [digital](https://en.wikipedia.org/wiki/Digital_signal) interconnections for the purpose of sharing resources located on or provided by the [network nodes](https://en.wikipedia.org/wiki/Node_(networking)). The interconnections between nodes are formed from a broad spectrum of [telecommunication network](https://en.wikipedia.org/wiki/Telecommunication_network) technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of [network topologies](https://en.wikipedia.org/wiki/Network_topology).
+
+<!-- MicroByte Showcase section starts -->
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/Crio-Bytes/Demo-Repo/master/Maintainer%20Resources/img/micro-bytes-header.png">
+</div>
+
+<hr />
+
+<!-- MicroByte Showcase sub-section starts -->
+
+<details>
+  <summary><b>IPV4_Addressing</b></summary>
+
+
+  ```
+  IPv4 is the most widely used version of the Internet Protocol. It defines IP addresses in a 32-bit format, which looks like 123.123. 123.123. Each three-digit section can include a number from 0 to 255, which means the total number of IPv4 addresses available is 4,294,967,296 (256 x 256 x 256 x 256 or 2^32).
+
+  Let's dive a bit deeper in knowing the IPV4 addressing formats.
+  ```
+
+</details>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— K Anjali Kamath ([**@Anjalikamath**](https://github.com/Anjalikamath))
+
+<!-- MicroByte Showcase sub-section ends -->
+
+<!-- MicroByte Showcase section ends -->
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
