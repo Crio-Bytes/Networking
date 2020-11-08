@@ -41,6 +41,32 @@ A **computer network** is a group of [computers](https://en.wikipedia.org/wiki/C
 
 <!-- MicroByte Showcase sub-section ends -->
 
+<!-- MicroByte Showcase sub-section starts -->
+
+<details>
+  <summary><b>traceroute</b></summary>
+
+
+  ```
+  The essence of computer networking is to transport packets from one machine (source) 
+  to another (destination). In the current modern age, with high speed networking and 
+  the internet growing to a vast global network of various devices, we tend to take 
+  things such as how a simple packet of data containing your request to fetch the 
+  content at, say, www.crio.do, moves from your computing device to the server where 
+  Crio's website resides.
+
+  This MicroByte explores the basics of packet routing and demonstrates the concept 
+  behind traceroute - a popular utility used to find some of the paths taken by a 
+  packet to reach a destination.
+
+  ```
+
+</details>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Vishwas Rajashekar([**@DarkAEther**](https://github.com/DarkAEther))
+
+<!-- MicroByte Showcase sub-section ends -->
+
 <!-- MicroByte Showcase section ends -->
 
 ## Contributors ✨
