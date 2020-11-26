@@ -2,6 +2,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<a href="https://twitter.com/crio_do"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/crio_do?style=for-the-badge&color=09f&labelColor=black&logo=twitter&label=@crio_do"></a>
+
 # Introduction
 
 A network consists of multiple devices that communicate with one another.  It can be as small as two [computers](https://techterms.com/definition/computer) or as large as billions of devices.  While a traditional network is comprised of [desktop computers](https://techterms.com/definition/desktop_computer), modern networks may include [laptops](https://techterms.com/definition/laptop), [tablets](https://techterms.com/definition/tablet), [smartphones](https://techterms.com/definition/smartphone), televisions, gaming consoles, smart appliances, and other electronics.
